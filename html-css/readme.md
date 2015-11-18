@@ -1,5 +1,6 @@
 # OVO HTML&CSS Exercise #
-Create the HTML and CSS needed for the 2 pages. No need to do any JavaScript, just link the "Next" button to the second page.
+In the ```designs``` folder you will find two images. Create the HTML and CSS needed for the 2 pages. No need to do any JavaScript, just link the "Next" button to the second page.
+
 It shouldn't take more than 3 hours, we're not looking for pixel perfect conversion. If at any time the requirements are unclear, use your better judgement and make a note of it when you submit your code.
 
 ## Requirements ##
