@@ -7,6 +7,7 @@ It shouldn't take more than 3 hours, we're not looking for pixel perfect convers
 2. Semantic HTML
 3. Responsive CSS
 4. Bonus points:
+    * forking this in Github and solving it there
     * using a 3rd party framework/library
     * using LESS
     * improving the UX
