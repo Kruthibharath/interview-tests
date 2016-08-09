@@ -1,5 +1,7 @@
 # Component Exercise
 
+![Inline Select](https://github.com/ovotech/interview-tests/blob/master/component/designs/flat/default.png)
+
 ## Objective
 
 Create the 'Inline Select' component from the PSD provided.
