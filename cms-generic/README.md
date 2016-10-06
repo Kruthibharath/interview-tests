@@ -23,6 +23,7 @@
 
 <details>
   <summary>Answer</summary>
+
     .what-a-great-list > li:nth-child(2)
 
     -- or --
@@ -51,6 +52,7 @@
 
 <details>
   <summary>Answer</summary>
+
     .primary-thing,
     .my-element {
       color: #000000;
@@ -69,6 +71,7 @@
 
 <details>
   <summary>Answer</summary>
+
     String.prototype.repeatify = String.prototype.repeatify || function(times) {
        var str = '';
 
