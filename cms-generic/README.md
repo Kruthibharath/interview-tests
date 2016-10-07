@@ -33,7 +33,7 @@
     -- there are others --
 </details>
 
-## 3. What css will the following less output?
+## 3. What css will the following less compile to?
 
     @brand-primary: black;
     .primary-thing {
@@ -120,3 +120,16 @@ The question tests the knowledge of the developer about inheritance in JavaScrip
         return wordCount;
     };
 </details>
+
+## 6. Fix the bug where the element flickers on hover.
+
+http://codepen.io/anon/pen/pEaVop
+
+<details>
+  <summary>Answer</summary>
+http://codepen.io/anon/pen/KgQRpk
+
+The element flickers because it changes size on hover, making the hitbox move away from the cursor, canceling the animation.
+You could either wrap it in div which will keep its size or use a pseudo element like the answer example.
+</details>
+
