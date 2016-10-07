@@ -84,3 +84,39 @@
 
 The question tests the knowledge of the developer about inheritance in JavaScript and the prototype property. It also verifies that the developer is able to extend native data type functionalities (although this should not be done).
 </details>
+
+## 5. Please create the following function.
+
+    var wordCount = function (sentence) {
+        // your implementation
+    };
+
+    var sentence = 'You shake my nerves and you rattle my brain';
+    var words = wordCount(sentence);
+
+    /*
+        {
+            and: 1,
+            brain: 1,
+            my: 2,
+            nerves: 1,
+            rattle: 1,
+            shake: 1,
+            you: 2
+        }
+     */
+<details>
+  <summary>Answer</summary>
+
+    var wordCount = function (sentence) {
+        let words = sentence.split(" ");
+        let wordCount = {};
+
+        words.forEach((word) => {
+            word = word.toLowerCase();
+            wordCount[word] = (wordCount[word]) ? wordCount[word] + 1 : 1;
+        });
+
+        return wordCount;
+    };
+</details>
